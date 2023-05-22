@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/sleeping-bags")
-//@CrossOrigin
+@CrossOrigin
 public class SleepingBagController {
 
     SleepingBagService sleepingBagService;

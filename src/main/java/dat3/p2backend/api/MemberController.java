@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
 
-//@CrossOrigin
+@CrossOrigin
 @RestController
 @RequestMapping("/api/member")
 public class MemberController {
