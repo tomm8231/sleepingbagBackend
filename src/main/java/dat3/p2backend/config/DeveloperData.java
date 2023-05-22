@@ -56,8 +56,7 @@ public class DeveloperData implements CommandLineRunner {
            String pathLinks = "pictures_links.csv";
 
         try {
-            //BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(pathLinks),"ISO-8859-1"));
-            BufferedReader in = new BufferedReader(new InputStreamReader(this.getClass().getClassLoader().getResourceAsStream(pathLinks), "ISO-8859-1"));
+            BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(pathLinks),"ISO-8859-1"));
 
             CSVFormat csvFormat = CSVFormat.DEFAULT.builder()
                 .setDelimiter(',')
@@ -87,8 +86,7 @@ public class DeveloperData implements CommandLineRunner {
         String path = "sovepose-data.csv";
 
         try {
-            //BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(path), "ISO-8859-1"));
-            BufferedReader in = new BufferedReader(new InputStreamReader(this.getClass().getClassLoader().getResourceAsStream(path), "ISO-8859-1"));
+            BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(path), "ISO-8859-1"));
 
             CSVFormat csvFormat = CSVFormat.DEFAULT.builder()
                 .setDelimiter(';')
