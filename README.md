@@ -1,5 +1,3 @@
 # P2Backend
 
-Gruppekontrakt: https://docs.google.com/document/d/1vfwk_qI2DuHgDVfcE0tCnginzKZPDXYsQrL8qV9uZFo/edit#heading=h.4tw5wvx49kqc
-
-Alle felter i gruppedokumentet er udfyldt
+[![Build and deploy JAR app to Azure Web App - sleepingbagbackend](https://github.com/tomm8231/sleepingbagBackend/actions/workflows/main_sleepingbagbackend.yml/badge.svg)](https://github.com/tomm8231/sleepingbagBackend/actions/workflows/main_sleepingbagbackend.yml)
